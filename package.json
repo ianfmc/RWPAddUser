@@ -1,0 +1,37 @@
+{
+  "name": "rwpadduser",
+  "version": "1.0.0",
+  "description": "Lamdba Function to add RWP User to DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./spec/*.spec.js",
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report html ./spec/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianfmc/RWPAddUser.git"
+  },
+  "keywords": [
+    "RWP",
+    "DynamoDB",
+    "Add",
+    "User"
+  ],
+  "author": "Ian F. McCallum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianfmc/RWPAddUser/issues"
+  },
+  "homepage": "https://github.com/ianfmc/RWPAddUser#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.6.11",
+    "aws-sdk-mock": "^1.5.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.6.11"
+  }
+}
