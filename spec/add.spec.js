@@ -25,10 +25,10 @@ describe('Add a New Team', function() {
 			};
 		userNoEmail = {
 			
-		}
+			};
 		userBadEmail = {
 			"email" : "pete.smith"
-		}
+			};
 	});
 
 	afterEach(function() {
