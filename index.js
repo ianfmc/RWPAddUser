@@ -25,7 +25,8 @@ exports.handler = function(event, context, callback) {
             TableName : 'User',
             Item : {
                 "email" : userEmail,
-                "teams" : teams
+                "teams" : teams,
+                "userStatus" : "Active"
             },
         };
         docClient.put(params, function(err, result) {
